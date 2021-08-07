@@ -50,10 +50,10 @@ namespace MiniConfigure
         /// <summary>
         /// 通过节点和属性获取值
         /// </summary>
-        /// <param name="filePath">sin文件路径</param>
+        /// <param name="filePath">文件路径</param>
         /// <param name="node">节点</param>
         /// <param name="property">属性名</param>
-        /// <returns>获取的值</returns>
+        /// <returns>获取到的值</returns>
         public static string GetValue(string filePath, string node, string property)
         {
             if (GetValueList(filePath, node, property).Count == 1)//如果等于1说明有且只有一个值
@@ -69,7 +69,7 @@ namespace MiniConfigure
         /// <summary>
         /// 通过节点和属性修改值
         /// </summary>
-        /// <param name="filePath">文件名</param>
+        /// <param name="filePath">文件路径</param>
         /// <param name="node">节点</param>
         /// <param name="property">属性</param>
         /// <param name="oldValue">需要修改的值</param>
