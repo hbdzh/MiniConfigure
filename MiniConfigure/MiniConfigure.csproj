@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net40;net45;net46;net461;net472;net48;netcoreapp3.1;net5</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>创建一个简单的配置文件，并提供操作他的方法，相较于Json更加轻量</Description>
+    <Authors>hbdzh</Authors>
+    <Company>hbdzh</Company>
+    <Copyright>Copyright © hbdzh 2021</Copyright>
+    <PackageProjectUrl>https://github.com/hbdzh/MiniConfigure</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hbdzh/MiniConfigure</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>C#</PackageTags>
+    <PackageReleaseNotes>创建一个简单的配置文件，并提供操作他的方法，相较于Json更加轻量</PackageReleaseNotes>
+    <PackageIcon>MiniConfigureLogo.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\图标\MiniConfigureLogo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="MiniConfigureLogo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

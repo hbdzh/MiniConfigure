@@ -1,0 +1,9 @@
+F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\netcoreapp3.1\MiniConfigure.deps.json
+F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\netcoreapp3.1\MiniConfigure.dll
+F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\netcoreapp3.1\MiniConfigure.pdb
+F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\netcoreapp3.1\MiniConfigure.csproj.AssemblyReference.cache
+F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\netcoreapp3.1\MiniConfigure.AssemblyInfoInputs.cache
+F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\netcoreapp3.1\MiniConfigure.AssemblyInfo.cs
+F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\netcoreapp3.1\MiniConfigure.csproj.CoreCompileInputs.cache
+F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\netcoreapp3.1\MiniConfigure.dll
+F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\netcoreapp3.1\MiniConfigure.pdb

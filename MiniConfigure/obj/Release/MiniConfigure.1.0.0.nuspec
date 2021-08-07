@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MiniConfigure</id>
+    <version>1.0.0</version>
+    <authors>hbdzh</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>MiniConfigureLogo.png</icon>
+    <projectUrl>https://github.com/hbdzh/MiniConfigure</projectUrl>
+    <description>创建一个简单的配置文件，并提供操作他的方法，相较于Json更加轻量</description>
+    <releaseNotes>创建一个简单的配置文件，并提供操作他的方法，相较于Json更加轻量</releaseNotes>
+    <copyright>Copyright © hbdzh 2021</copyright>
+    <tags>C#</tags>
+    <repository type="git" url="https://github.com/hbdzh/MiniConfigure" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.7.2" />
+      <group targetFramework=".NETFramework4.8" />
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net40\MiniConfigure.dll" target="lib\net40\MiniConfigure.dll" />
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net45\MiniConfigure.dll" target="lib\net45\MiniConfigure.dll" />
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net46\MiniConfigure.dll" target="lib\net46\MiniConfigure.dll" />
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net461\MiniConfigure.dll" target="lib\net461\MiniConfigure.dll" />
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net472\MiniConfigure.dll" target="lib\net472\MiniConfigure.dll" />
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net48\MiniConfigure.dll" target="lib\net48\MiniConfigure.dll" />
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net5\MiniConfigure.dll" target="lib\net5.0\MiniConfigure.dll" />
+    <file src="F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\netcoreapp3.1\MiniConfigure.dll" target="lib\netcoreapp3.1\MiniConfigure.dll" />
+    <file src="F:\图标\MiniConfigureLogo.png" target="MiniConfigureLogo.png" />
+  </files>
+</package>
