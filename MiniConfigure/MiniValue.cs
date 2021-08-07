@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MiniConfigure
 {
-    class MiniValue
+    public class MiniValue
     {
         /// <summary>
         /// 通过节点和属性获取值列表

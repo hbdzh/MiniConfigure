@@ -3,7 +3,7 @@ using System.Text;
 
 namespace MiniConfigure
 {
-    class MiniProperty
+    public class MiniProperty
     {
         /// <summary>
         /// 通过节点和值修改属性

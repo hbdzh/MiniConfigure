@@ -1,8 +1,0 @@
-F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net40\MiniConfigure.dll
-F:\Code\C#\MiniConfigure\MiniConfigure\bin\Release\net40\MiniConfigure.pdb
-F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\net40\MiniConfigure.csproj.AssemblyReference.cache
-F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\net40\MiniConfigure.AssemblyInfoInputs.cache
-F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\net40\MiniConfigure.AssemblyInfo.cs
-F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\net40\MiniConfigure.csproj.CoreCompileInputs.cache
-F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\net40\MiniConfigure.dll
-F:\Code\C#\MiniConfigure\MiniConfigure\obj\Release\net40\MiniConfigure.pdb

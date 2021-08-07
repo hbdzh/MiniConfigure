@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MiniConfigure
 {
-    class MiniNode
+    public class MiniNode
     {
         /// <summary>
         /// 通过节点获取该节点下的配置信息
