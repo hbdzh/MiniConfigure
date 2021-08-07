@@ -48,19 +48,17 @@ MiniConfig.CreateFile(@"C:\App.mini","Font","FontSize","16");
 
 下面的代码，将帮助我们向App.mini这个文件中添加一条新的信息。
 
-还是在MiniConfig类中。
-
 ```c#
 MiniConfig.AppendConfig(@"C:\App.mini","Font","FontColor","Black");
 ```
 
-如果你担心自己的迷你配置文件可能不规范，该怎么办呢？
+如果你担心自己的迷你配置文件可能不规范。
 
-这里也提供了一个方法，来快速的设置格式。
+这里也提供了一个方法，将文件规范化。
 
 但是我不推荐你使用，因为在其他方法中，已经调用了这个方法。
 
-下面的代码是用来将迷你配置文件规范化的
+下面的代码是用来将迷你配置文件规范化。
 
 ```c#
 MiniConfig.CheckFileFormat(@"C:\App.mini");
@@ -85,8 +83,6 @@ MiniValue.GetValue(@"C:\App.mini","Font","FontSize");
 返回值是string类型，返回的值是16。
 
 **修改某个值**
-
-修改值的方法在MiniValue类中。
 
 前几个参数和GetValue是一样的，后面两个参数分别是旧的值和新的值。
 
