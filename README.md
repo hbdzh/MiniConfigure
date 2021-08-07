@@ -18,7 +18,7 @@
 
 ## 使用方法
 
-**创建一个迷你配置文件**
+### 创建一个迷你配置文件
 
 引入命名空间
 
@@ -44,7 +44,7 @@ MiniConfig.CreateFile(@"C:\App.mini","Font","FontSize","16");
 
 以上，存放了一条信息的迷你配置文件就创建完成了。
 
-**添加一条信息**
+### 添加一条信息
 
 下面的代码，将帮助我们向App.mini这个文件中添加一条新的信息。
 
@@ -64,7 +64,7 @@ MiniConfig.AppendConfig(@"C:\App.mini","Font","FontColor","Black");
 MiniConfig.CheckFileFormat(@"C:\App.mini");
 ```
 
-**获取信息中的值**
+### 获取信息中的值
 
 获取值的相关方法在MiniValue类中。
 
@@ -82,7 +82,7 @@ MiniValue.GetValue(@"C:\App.mini","Font","FontSize");
 
 返回值是string类型，返回的值是16。
 
-**修改某个值**
+### 修改某个值
 
 前几个参数和GetValue是一样的，后面两个参数分别是旧的值和新的值。
 
