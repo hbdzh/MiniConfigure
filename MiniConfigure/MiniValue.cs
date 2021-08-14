@@ -67,6 +67,62 @@ namespace MiniConfigure
         }
 
         /// <summary>
+        /// 获取文件内的所有值
+        /// </summary>
+        /// <param name="filePath">文件路径</param>
+        /// <returns>指定文件内的所有值</returns>
+        public static List<string> GetAllValue(string filePath)
+        {
+            List<string> nodeList = new List<string>();
+            {
+                using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    using (StreamReader sr = new StreamReader(fs, Encoding.UTF8))
+                    {
+                        string subStr = ":";
+                        string line;
+                        while ((line = sr.ReadLine()) != null)//一行一行读取
+                        {
+                            string str = line.Substring(line.IndexOf(subStr) + 1, line.IndexOf(";") - line.IndexOf(subStr) - 1);
+                            nodeList.Add(str);
+                        }
+                    }
+                }
+            }
+            return nodeList;
+        }
+
+        /// <summary>
+        /// 获取指定节点下的所有值
+        /// </summary>
+        /// <param name="filePath">文件路径</param>
+        /// <param name="node">节点</param>
+        /// <returns>指定节点下的所有值</returns>
+        public static List<string> GetAllValue(string filePath, string node)
+        {
+            List<string> nodeList = new List<string>();
+            {
+                using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    using (StreamReader sr = new StreamReader(fs, Encoding.UTF8))
+                    {
+                        string subStr = ":";
+                        string line;
+                        while ((line = sr.ReadLine()) != null)//一行一行读取
+                        {
+                            if (line.Contains("[" + node + "]"))
+                            {
+                                string str = line.Substring(line.IndexOf(subStr) + 1, line.IndexOf(";") - line.IndexOf(subStr) - 1);
+                                nodeList.Add(str);
+                            }
+                        }
+                    }
+                }
+            }
+            return nodeList;
+        }
+
+        /// <summary>
         /// 通过节点和属性修改值
         /// </summary>
         /// <param name="filePath">文件路径</param>

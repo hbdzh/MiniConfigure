@@ -71,6 +71,34 @@ namespace MiniConfigure
         }
 
         /// <summary>
+        /// 获取文件内的所有节点
+        /// </summary>
+        /// <param name="filePath">文件列表</param>
+        /// <returns>指定文件内容的所有节点名</returns>
+        public static List<string> GetAllNode(string filePath)
+        {
+            List<string> nodeList = new List<string>();
+            {
+                using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    using (StreamReader sr = new StreamReader(fs, Encoding.UTF8))
+                    {
+                        string line;
+                        while ((line = sr.ReadLine()) != null)//一行一行读取
+                        {
+                            string startStr = "[";
+                            string endStr = "]";
+                            int strLength = startStr.Length;
+                            string str = line.Substring(line.IndexOf(startStr) + strLength, line.IndexOf(endStr) - line.IndexOf(startStr) - strLength);
+                            nodeList.Add(str);
+                        }
+                    }
+                }
+            }
+            return nodeList;
+        }
+
+        /// <summary>
         /// 通过属性和值修改节点
         /// </summary>
         /// <param name="filePath">文件路径</param>
